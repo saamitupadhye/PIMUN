@@ -162,7 +162,7 @@ export const teamMembers: TeamMember[] = [
   name: 'ANIRVAN JADHAV',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocAnirvan,
-  bio: 'Ensuring seamless conference execution with the OC team.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -170,7 +170,7 @@ export const teamMembers: TeamMember[] = [
   name: 'YUVRAJ GHORPADE',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocYuvraj,
-  bio: 'Contributing to event planning and logistics.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -178,7 +178,7 @@ export const teamMembers: TeamMember[] = [
   name: 'PURVA MISTRY',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocPurva,
-  bio: 'Coordinating with teams and managing delegate services.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -186,7 +186,7 @@ export const teamMembers: TeamMember[] = [
   name: 'TANVI KUWALEKAR',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocTanvi,
-  bio: 'Ensuring smooth operations and delegate support.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -194,7 +194,7 @@ export const teamMembers: TeamMember[] = [
   name: 'GUNEET KAUR',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocGuneet,
-  bio: 'Supporting logistics and resource coordination.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -202,7 +202,7 @@ export const teamMembers: TeamMember[] = [
   name: 'ZOYA KHAN',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocZoya,
-  bio: 'Overseeing hospitality and event facilitation.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -210,7 +210,7 @@ export const teamMembers: TeamMember[] = [
   name: 'PRAGYA SHETTY',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocPragya,
-  bio: 'Managing schedules and assisting in event coordination.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -218,7 +218,7 @@ export const teamMembers: TeamMember[] = [
   name: 'ARSHAD SHAIKH',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocArshad,
-  bio: 'Handling logistics and supplies across venues.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -226,7 +226,7 @@ export const teamMembers: TeamMember[] = [
   name: 'ANAS CHOUGLE',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocAnas,
-  bio: 'Coordinating transport and communications support.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -234,7 +234,7 @@ export const teamMembers: TeamMember[] = [
   name: 'NAMAN KADAM',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocNaman,
-  bio: 'Supporting backend logistics and delegate queries.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -242,7 +242,7 @@ export const teamMembers: TeamMember[] = [
   name: 'VYOM PATEL',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocVyom,
-  bio: 'Working on documentation and real-time execution.',
+  bio: '',
   category: 'oc'
 },
 {
@@ -250,7 +250,7 @@ export const teamMembers: TeamMember[] = [
   name: 'SANSKRITI NANAWARE',
   role: 'Organizing Committee',
   photo: TEAM_PHOTOS.ocSansriti,
-  bio: 'Supporting outreach and registration tasks.',
+  bio: '',
   category: 'oc'
 }
 ];
