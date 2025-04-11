@@ -1,0 +1,34 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import NewsCard from '../../../components/NewsCard.astro';
+import { articles, events } from '../../../data/mockData';
+
+export function getStaticPaths() {
+  return events.map(event => ({
+    params: { committee: event.toLowerCase().replace(/\s+/g, '-') },
+    props: { committeeName: event },
+  }));
+}
+
+const { committeeName } = Astro.props;
+const committeeArticles = articles.filter(article => article.event === committeeName);
+---
+
+<Layout title={`${committeeName} News - MUN Press`}>
+  <main class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+      <a href={`/committees/${committeeName.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:text-blue-800">
+        ← Back to {committeeName}
+      </a>
+      <h1 class="text-3xl font-bold mt-4">{committeeName} News</h1>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {committeeArticles.map(article => (
+        <a href={`/articles/${article.id}`}>
+          <NewsCard {...article} />
+        </a>
+      ))}
+    </div>
+  </main>
+</Layout>

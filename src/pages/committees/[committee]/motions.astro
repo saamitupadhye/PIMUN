@@ -1,0 +1,69 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import VotingGraph from '../../../components/VotingGraph';
+import { events, motions } from '../../../data/mockData';
+
+export function getStaticPaths() {
+  return events.map(event => ({
+    params: { committee: event.toLowerCase().replace(/\s+/g, '-') },
+    props: { committeeName: event },
+  }));
+}
+
+const { committeeName } = Astro.props;
+const committeeMotions = motions.filter(motion => motion.committee === committeeName);
+---
+
+<Layout title={`${committeeName} Motions - MUN Press`}>
+  <main class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+      <a href={`/committees/${committeeName.toLowerCase().replace(/\s+/g, '-')}`} class="text-blue-600 hover:text-blue-800">
+        ← Back to {committeeName}
+      </a>
+      <h1 class="text-3xl font-bold mt-4">{committeeName} Motions and Voting</h1>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+      <select
+        id="motionSelect"
+        class="w-full p-2 border rounded-lg mb-4"
+      >
+        <option value="">Select a motion...</option>
+        {committeeMotions.map(motion => (
+          <option value={motion.id}>Motion {motion.id}: {motion.topic}</option>
+        ))}
+      </select>
+
+      <div id="votingGraphContainer">
+        {committeeMotions.map((motion, index) => (
+          <div
+            id={`motion-${motion.id}`}
+            class={index === 0 ? '' : 'hidden'}
+          >
+            <VotingGraph client:visible motion={motion} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  const motionSelect = document.getElementById('motionSelect');
+  
+  motionSelect?.addEventListener('change', (e) => {
+    const target = e.target as HTMLSelectElement;
+    const selectedMotionId = target.value;
+    
+    // Hide all motion graphs
+    document.querySelectorAll('[id^="motion-"]').forEach(el => {
+      el.classList.add('hidden');
+    });
+    
+    // Show selected motion graph
+    if (selectedMotionId) {
+      const selectedGraph = document.getElementById(`motion-${selectedMotionId}`);
+      selectedGraph?.classList.remove('hidden');
+    }
+  });
+</script>

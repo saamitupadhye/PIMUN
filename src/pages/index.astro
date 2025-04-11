@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getPublishedArticles, channels, events } from '../data/mockData';
+
+const publishedArticles = getPublishedArticles();
+---
+
+<Layout title="PIMUN International Press">
+  <main class="container mx-auto px-4 py-8">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">PIMUN International Press</h1>
+      <p class="text-xl text-gray-600">Your source for all PIMUN news and updates</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-4">News Channels</h2>
+        <div class="space-y-2">
+          {channels.map(channel => (
+            <a href={`/channels/${channel.toLowerCase().replace(/\s+/g, '-')}`} 
+               class="block p-2 hover:bg-gray-100 rounded">
+              {channel}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-4">Committees</h2>
+        <div class="space-y-2">
+          {events.map(event => (
+            <a href={`/committees/${event.toLowerCase().replace(/\s+/g, '-')}`}
+               class="block p-2 hover:bg-gray-100 rounded">
+              {event}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-6">Latest Articles</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {publishedArticles.map(article => (
+          <a href={`/articles/${article.id}`}>
+            <NewsCard {...article} />
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</Layout>

@@ -1,0 +1,29 @@
+---
+import Header from '../components/Header.astro';
+import PreLoader from '../components/PreLoader.astro';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="PIMUN International Press" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} - PIMUN Press</title>
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-gray-50">
+    <PreLoader />
+    <Header />
+    <slot />
+  </body>
+</html>

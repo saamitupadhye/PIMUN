@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { articles, events, motions } from '../../data/mockData';
+
+export function getStaticPaths() {
+  return events.map(event => ({
+    params: { committee: event.toLowerCase().replace(/\s+/g, '-') },
+    props: { committeeName: event },
+  }));
+}
+
+const { committeeName } = Astro.props;
+---
+
+<Layout title={`${committeeName} - MUN Press`}>
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-8">{committeeName}</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {/* News Section */}
+      <a 
+        href={`/committees/${committeeName.toLowerCase().replace(/\s+/g, '-')}/news`}
+        class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center cursor-pointer"
+      >
+        <h2 class="text-2xl font-bold mb-4">NEWS</h2>
+        <p class="text-gray-600">View all news articles related to {committeeName}</p>
+      </a>
+
+      {/* Motions and Voting Section */}
+      <a 
+        href={`/committees/${committeeName.toLowerCase().replace(/\s+/g, '-')}/motions`}
+        class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-center cursor-pointer"
+      >
+        <h2 class="text-2xl font-bold mb-4">MOTIONS AND VOTING</h2>
+        <p class="text-gray-600">Track motions and voting results</p>
+      </a>
+    </div>
+  </main>
+</Layout>

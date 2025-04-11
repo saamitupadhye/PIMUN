@@ -1,0 +1,41 @@
+---
+interface Props {
+  name: string;
+  role: string;
+  photo: string;
+  bio: string;
+  committee?: string;
+}
+
+const { name, role, photo, bio, committee } = Astro.props;
+---
+
+<div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-200">
+  <div class="relative w-full h-64">
+    <div 
+      class="absolute inset-0 bg-cover bg-center"
+      style={`background-image: url(${photo});`}
+      role="img"
+      aria-label={`Photo of ${name}`}
+    >
+      <div class="absolute inset-0 bg-black opacity-10"></div>
+    </div>
+  </div>
+  <div class="p-6">
+    <h3 class="text-xl font-bold text-gray-900 mb-2">{name}</h3>
+    <div class="mb-3">
+      <p class="text-blue-600 font-semibold">{role}</p>
+      {committee && <p class="text-gray-500">{committee}</p>}
+    </div>
+    <p class="text-gray-600">{bio}</p>
+  </div>
+</div>
+
+<style>
+  .bg-cover {
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+</style>
