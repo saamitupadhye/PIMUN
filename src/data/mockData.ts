@@ -168,7 +168,7 @@ materials to control climate change.
 USA concludes by saying that they are taking smaller steps
 towards their carbon free goal, and also states that they have
 been supporting SIDS financially, and doing so, USA ends this
-fierce debate!',
+fierce debate!`,
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['PIMUN', 'PIMUN 2025', 'UNFCCC', 'Debate', 'USA', 'Global Goals', 'UK', 'Global Warming', 'Climate change', 'SIDS'],
     status: 'published',
