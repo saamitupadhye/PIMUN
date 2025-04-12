@@ -78,50 +78,162 @@ Now the question is, “How much longer can we ignore the struggles of those who
 the price for a crisis they didn’t contribute much to?”
 Till when will this continue and be hidden behind the debate and politics?`,
     imageUrl: ARTICLE_IMAGES.securityMeeting,
-    tags: ['Climate Change', 'Environmental Policy', 'Global Cooperation'],
+    tags: ['Global Warming', 'Politics', 'Climate change'],
     status: 'published',
   },
   {
     id: '2',
-    title: 'UNFCCC Makes Progress on Climate Action',
-    channel: 'BBC',
+    title: ' “Coal to Solar “: Initiatives taken by India and Spain on facing climate changes',
+    channel: 'Agence France Press',
     event: 'UNFCCC',
-    date: '2024-04-09',
-    author: 'Michael Chen',
-    summary: 'Delegates achieve breakthrough in climate negotiations...',
-    content: `The UNFCCC Conference saw significant progress as delegates reached consensus on key climate action measures. 
-    The discussion focused on implementing more aggressive carbon reduction targets and establishing a global fund 
-    for climate adaptation in developing nations...`,
+    date: '2025-04-12',
+    author: 'Saarah Munshi',
+    summary: 'Motion on Schemes and implementation laws by developed countries and developing countries to overcome climate change.',
+    content: `The session commenced with the Chair introducing the agenda:  Schemes and implementation laws by developed countries and developing countries to overcome climate changes .
+Delegates from India and Spain presented their positions, highlighting their roles as developing and developed countries.
+India started the motion with their agenda of “coal-powered plants to solar-based power plants”.India emphasized its commitment to reducing coal and highlighted ongoing efforts to increase solar energy Instead in the country .₹41.75 billion was funded by the USA to India for the initiatives . On October 19, 2018,  significant steps were taken Aimed at curbing coal-powered to solar-powered plant 
+Spain questioned India “ Solar cells Will bring more waste to the environment instead “ 
+Spain on their behalf shortly voiced their agenda on the energy conservation law of 2013 implemented, wherein it has made 23 percent less gas emissions and on promoting selective charging infrastructure. It then continued with Other countries showing their concerns regarding the Motion discussed .`,
     imageUrl: ARTICLE_IMAGES.climateSummit,
-    tags: ['Climate Change', 'Environmental Policy', 'Global Cooperation'],
+    tags: ['UNFCCC', 'COALTOSOLAR', 'CLIMATE CHANGE', 'INDIA', 'SPAIN', 'Sustainability'],
     status: 'published',
   },
   {
     id: '3',
-    title: 'UNODA Discusses Disarmament Measures',
-    channel: 'Agences France Press',
-    event: 'UNODA',
-    date: '2024-04-08',
-    author: 'Sarah Williams',
-    summary: 'UNODA conference addresses global disarmament challenges...',
-    content: `The UN Office for Disarmament Affairs convened to discuss critical disarmament initiatives.
-    Delegates focused on non-proliferation treaties and arms control measures...`,
+    title: 'Aggression and Illusion: UNSC wrestles with reality',
+    channel: 'Washington Post',
+    event: 'UNSC',
+    date: '2025-04-12',
+    author: 'Kenisha Rai',
+    summary: 'The war over Ukraine has recently hit its three-year mark, the global conversation shifted from physical warfare to the more sinister and murky battlezones of modern conflict: the online information war – social media, propaganda, and fact versus fiction.',
+    content: `Ukraine accused Russia not only of launching missiles, but also of mastering the art of deception. They pointed
+to a shallow deep-fake video of their current president, Volodymyr Zelenskyy surrendering online. The Ukrainian
+side claimed that the online social warfare was as destructive as the military warfare they were facing.
+“This is not a theoretical war,” the delegate of Ukraine added. “This is our everyday brutal reality.”
+In the meantime, Russia tried to absolve itself of any and all guilt regarding the July 24 hospital bombing. They
+tried justifying the bombing by saying that the target was supposed to be an Agro Plant. They claimed Ukrainian
+interference was responsible for the diversion, and while surrendering, they genuinely accepted this version of
+events and it drew quite a few skeptical glances from the other delegations.
+During clashes of a more diplomatic nature, one call was heard: The Republic of Korea stating that, “Aggression
+cannot, will not, and must not be normalized.”
+Denmark and Slovenia were quick to label both hybrid warfare and the international media as deceitful and called
+for other nations to stand against such violence. Belarus denied responsibility for the disinformation campaign
+and China moved the target focus from China to America. Together with Ukraine, the Americans darkly
+underscored the increasing cost of the conflict—both in human lives as well as in verifiable facts.
+No resolution to the conflict was reached in the end, but one fact remains: the focus of this battle is not just about
+land, but what dominant narratives are accepted in society.
+However, under the official remarks and diplomatic courtesy, the atmosphere in the room was sluggish—with
+quiet, grief, and the harsh reality that wars are measured in more than just body counts. The lies we choose to
+believe also hold weight. This is particularly devastating for the people of Ukraine, bearing the weight of these
+narratives.`,
     imageUrl: ARTICLE_IMAGES.disarmamentTalks,
-    tags: ['Disarmament', 'Global Security', 'Peace'],
+    tags: ['UNSC', 'Ukraine Conflict', 'Russia-Ukraine War', 'Disinformation', 'MUN 2025', 'International Press', 'War in Media', 'Truth in Conflict', 'Geo-politics', 'Crisis Reporting', 'Global diplomacy'],
     status: 'published',
   },
   {
     id: '4',
-    title: 'UNGA Passes Resolution on Sustainable Development',
-    channel: 'The Guardian',
-    event: 'UNGA',
-    date: '2024-04-07',
-    author: 'Robert Kim',
-    summary: 'General Assembly adopts comprehensive sustainable development framework...',
-    content: `The UN General Assembly today passed a landmark resolution on sustainable development.
-    The resolution outlines key measures for achieving the SDGs and promoting global cooperation...`,
+    title: 'USA AND UK’s FIERCE DEBATE AT UNFCCC, PIMUN 2025',
+    channel: 'PIMUN Press',
+    event: 'UNFCCC',
+    date: '2025-04-12',
+    author: 'Shaira Mohammad',
+    summary: 'USA and UK have a fierce debate along with their
+partners at UNFCCC, PIMUN 2025, along with their chosen
+partners. UK and India asked thought provoking questions
+and USA and Tuvalu replied with well structured answers.',
+    content: `At PIMUN 2025, USA and UK have a fierce debate at UNFCCC,
+along with their partners, India with UK, and Tuvalu with
+USA.
+Delegate of USA starts by introducing themselves. They claim
+that they support and are helping the SIDS, who they say are
+the frontliners of climate change. They state that they are
+helping SIDS through financial and developmental support.
+Delegate of UK backfired, by asking USA how they can claim
+that they support SIDS if they don’t radify the Kyoto
+protocols. USA replies to this by saying that if they would
+radify the Kyoto protocols, it would harm their territory.
+After this, USA picks Tuvalu as its partner and UK picks India.
+UK and India challenge USA and Tuvalu, saying that “How can
+
+you say that you are concerned about climate change and
+SIDS when you don’t radify the Kyoto protocols”
+USA replies by claiming that they have taken steps to
+decrease the Carbon Dioxide by reducing Deforestation. India
+backfires by asking USA what initiatives their government has
+taken for public transport. USA replies to this by saying that
+they haven’t made many initiatives for that, as they are more
+focused on starting E-vehicles. USA also states that they have
+been reducing plastic and other environment harming
+materials to control climate change.
+USA concludes by saying that they are taking smaller steps
+towards their carbon free goal, and also states that they have
+been supporting SIDS financially, and doing so, USA ends this
+fierce debate!',
     imageUrl: ARTICLE_IMAGES.assemblyVote,
-    tags: ['Sustainable Development', 'UNGA', 'Global Goals'],
+    tags: ['PIMUN', 'PIMUN 2025', 'UNFCCC', 'Debate', 'USA', 'Global Goals', 'UK', 'Global Warming', 'Climate change', 'SIDS'],
+    status: 'published',
+  }
+{
+    id: '5',
+    title: 'Escalating Russia-Ukraine Conflict and the global call for peace',
+    channel: 'BBC',
+    event: 'UNSC',
+    date: '2025-04-12',
+    author: 'Avaneesh Shinde',
+    summary: 'Delegation of the United Kingdom addresses countless amounts of casualties in War. The United Kingdom openly supports Ukraine. Delegation of the United States of America promotes peace among both nations.',
+    content: 'The committee Session 1 starts with Delegation of United Kingdom’s
+Speaker’s list followed by United States of America. United Kingdom openly supports
+Ukraine while addressing countless amounts of deaths which are estimated to be
+around 14,200–14,400 military and civilian deaths during the War in Donbas, and up to
+1,000,000 estimated casualties during the Russian invasion of Ukraine. Russia
+comments that Ukraine has also caused civilian casualties to the same extent as
+Russia. Ukraine comments that United Kingdom is right about Russia condemning the
+act. Point of Information raised was by Russia about them not condemning any act.
+Ukraine changing its words to Russia is causing the act. Delegate of United States
+of America states that they have provided $66.5 billion in military assistance since
+Russia launched its full-scale invasion of Ukraine on February 24, 2022, and
+approximately $69.2 billion in military assistance since Russia’s initial invasion of
+Ukraine in 2014. The United States of America has now used the emergency
+Presidential Drawdown Authority on 55 occasions since August 2021 to provide Ukraine
+military assistance totaling approximately $31.7 billion from DoD stockpiles.',
+    imageUrl: ARTICLE_IMAGES.assemblyVote,
+    tags: ['Russia-Ukraine Wars', 'UK', 'Ukraine', 'Russia', 'USA', 'Speakers list', 'Call For Peace'],
+    status: 'published',
+  }
+{
+    id: '6',
+    title: 'United Kingdom’s Views on Disarming of Nuclear Weapons',
+    channel: 'PIMUN Press',
+    event: 'UNODA',
+    date: '2025-04-12',
+    author: 'Anay Kathuria',
+    summary: 'The United Kingdom views, having Nuclear Weapons as a responsibility
+and not a threat to the world. The United Kingdom believes that the
+world is at balance when only a few countries, including United
+Kingdom, have Nuclear Bombs.',
+    content: `The Delegate of United Kingdom said in United Nations Office for
+Disarmament Affairs(UNODA) that having a Nuclear Power is a
+responsibility and not a luxury. The United Kingdom believes that the
+entire world should dispose off of their Nuclear Weapons except for the
+five countries which were allowed by the Non-Proliferation Treaty. The
+United Kingdom supports the Disarmament Motion but also believes
+that it should have Nuclear Weapons in its possession as a
+“responsibility”`,
+    imageUrl: ARTICLE_IMAGES.assemblyVote,
+    tags: ['PIMUN', 'PIMUN 2025', 'UNODA', 'Debate', 'Global Goals', 'UK','Weapons Disarmament','Weapons'],
+    status: 'published',
+  }
+{
+    id: '7',
+    title: '',
+    channel: '',
+    event: '',
+    date: '2025-04-12',
+    author: '',
+    summary: '',
+    content: '',
+    imageUrl: ARTICLE_IMAGES.assemblyVote,
+    tags: ['PIMUN', 'PIMUN 2025', 'UNFCCC', 'Debate', 'USA', 'Global Goals', 'UK', 'Global Warming', 'Climate change', 'SIDS'],
     status: 'published',
   }
 ];
