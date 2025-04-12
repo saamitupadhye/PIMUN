@@ -51,17 +51,34 @@ const ARTICLE_IMAGES = {
 export const articles: Article[] = [
   {
     id: '1',
-    title: 'UNSC Addresses Global Security Challenges',
-    channel: 'CNN',
-    event: 'UNSC',
-    date: '2024-04-10',
-    author: 'Aahil Johnson',
-    summary: 'The UNSC convened to discuss pressing global security matters...',
-    content: `The United Nations Security Council today addressed critical global security challenges.
-    The council discussed various peacekeeping operations and conflict resolution strategies.
-    Key focus areas included regional stability and international cooperation...`,
+    title: 'USA taking steps for SIDs, whereas it did not ratify the Kyoto Protocol.',
+    channel: 'NDTV',
+    event: 'UNFCCC',
+    date: '2025-04-12',
+    author: 'Garima Kumari',
+    summary: 'Contributing the least to climate change...',
+    content: `They contributed the least to climate change, but they are paying the highest price. Small
+Island Developing States are running out of time-and the land….
+In recent discussion, USA shows sympathy towards SIDS and claims that they are actively
+working for them financially as well as with technology.
+But the discussion further heats up as UK and India attacks USA by raising a challenge and
+debating on its statements.
+
+ Inconsistency in climate policy and withdrawal from Paris Agreement:
+The USA’s climate policies have been inconsistent and have been criticized as insufficient,
+especially for SIDs.
+The US’s withdrawal from the Paris Agreement although later reversed was a significant
+setback for SIDs and other vulnerable countries.
+
+ Lack of leadership:
+The US’s perceived lack of leadership on climate change has also weakened the
+international effort to address the climate change, which is particularly felt by SIDs.
+
+Now the question is, “How much longer can we ignore the struggles of those who are paying
+the price for a crisis they didn’t contribute much to?”
+Till when will this continue and be hidden behind the debate and politics?`,
     imageUrl: ARTICLE_IMAGES.securityMeeting,
-    tags: ['Peace & Security', 'Resolution', 'Unanimous Vote'],
+    tags: ['Climate Change', 'Environmental Policy', 'Global Cooperation'],
     status: 'published',
   },
   {
