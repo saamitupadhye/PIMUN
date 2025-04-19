@@ -156,7 +156,7 @@ fierce debate!`,
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['PIMUN', 'PIMUN 2025', 'UNFCCC', 'Debate', 'USA', 'Global Goals', 'UK', 'Global Warming', 'Climate change', 'SIDS'],
     status: 'published',
-  }
+  },
 {
     id: '5',
     title: 'Escalating Russia-Ukraine Conflict and the global call for peace',
@@ -169,7 +169,7 @@ fierce debate!`,
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['Russia-Ukraine Wars', 'UK', 'Ukraine', 'Russia', 'USA', 'Speakers list', 'Call For Peace'],
     status: 'published',
-  }
+  },
 {
     id: '6',
     title: 'United Kingdom’s Views on Disarming of Nuclear Weapons',
@@ -184,7 +184,7 @@ United Kingdom supports the Disarmament Motion but also believes that it should 
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['PIMUN', 'PIMUN 2025', 'UNODA', 'Debate', 'Global Goals', 'UK','Weapons Disarmament','Weapons'],
     status: 'published',
-  }
+  },
 {
     id: '7',
     title: 'Russia’s options for using Nuclear Weapons',
@@ -197,7 +197,7 @@ United Kingdom supports the Disarmament Motion but also believes that it should 
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['PIMUN', 'PIMUN 2025', 'UNFCCC', 'Debate', 'USA', 'Global Goals', 'UK', 'Global Warming', 'Climate change', 'SIDS'],
     status: 'published',
-  }
+  },
 {
     id: '8',
     title: 'Russia’s options for using Nuclear Weapons',
@@ -210,7 +210,7 @@ United Kingdom supports the Disarmament Motion but also believes that it should 
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['PIMUN', 'PIMUN 2025', 'UNFCCC', 'Debate', 'USA', 'Global Goals', 'UK', 'Global Warming', 'Climate change', 'SIDS'],
     status: 'published',
-  }
+  },
 ];
 
 export const motions: Motion[] = [
