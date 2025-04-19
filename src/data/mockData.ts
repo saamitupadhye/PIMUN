@@ -137,34 +137,18 @@ narratives.`,
     event: 'UNFCCC',
     date: '2025-04-12',
     author: 'Shaira Mohammad',
-    summary: 'USA and UK have a fierce debate along with their
-partners at UNFCCC, PIMUN 2025, along with their chosen
-partners. UK and India asked thought provoking questions
-and USA and Tuvalu replied with well structured answers.',
-    content: `At PIMUN 2025, USA and UK have a fierce debate at UNFCCC,
-along with their partners, India with UK, and Tuvalu with
-USA.
-Delegate of USA starts by introducing themselves. They claim
-that they support and are helping the SIDS, who they say are
-the frontliners of climate change. They state that they are
-helping SIDS through financial and developmental support.
-Delegate of UK backfired, by asking USA how they can claim
-that they support SIDS if they don’t radify the Kyoto
-protocols. USA replies to this by saying that if they would
-radify the Kyoto protocols, it would harm their territory.
-After this, USA picks Tuvalu as its partner and UK picks India.
-UK and India challenge USA and Tuvalu, saying that “How can
+    summary: 'USA and UK have a fierce debate along with their partners at UNFCCC, PIMUN 2025, along with their chosen partners. UK and India asked thought-provoking questions and USA and Tuvalu replied with well structured answers.',
+    content: `At PIMUN 2025, USA and UK have a fierce debate at UNFCCC, along with their partners, India with UK, and Tuvalu with USA.
+    
+The delegate of the USA starts by introducing themselves. They claim that they support and are helping the SIDS, who they say are
+the frontliners of climate change. They state that they are helping SIDS through financial and developmental support. The Delegate of UK backfired, by asking USA how they can claim
+that they support SIDS if they don’t ratify the Kyoto protocols. USA replies to this by saying that if they ratified the Kyoto protocols, it would harm their territory.
+After this, the USA picks Tuvalu as its partner and UK picks India.
+UK and India challenge USA and Tuvalu, saying that “How can you say that you are concerned about climate change and SIDS when you don’t ratify the Kyoto protocols”
+USA replies by claiming that they have taken steps to decrease Carbon Dioxide by reducing Deforestation. India backfires by asking USA what initiatives their government has taken for public transport. USA replies to this by saying that
+they haven’t made many initiatives for that, as they are more focused on starting E-vehicles. USA also states that they have
+been reducing plastic and other environment harming materials to control climate change.
 
-you say that you are concerned about climate change and
-SIDS when you don’t radify the Kyoto protocols”
-USA replies by claiming that they have taken steps to
-decrease the Carbon Dioxide by reducing Deforestation. India
-backfires by asking USA what initiatives their government has
-taken for public transport. USA replies to this by saying that
-they haven’t made many initiatives for that, as they are more
-focused on starting E-vehicles. USA also states that they have
-been reducing plastic and other environment harming
-materials to control climate change.
 USA concludes by saying that they are taking smaller steps
 towards their carbon free goal, and also states that they have
 been supporting SIDS financially, and doing so, USA ends this
@@ -181,21 +165,12 @@ fierce debate!`,
     date: '2025-04-12',
     author: 'Avaneesh Shinde',
     summary: 'Delegation of the United Kingdom addresses countless amounts of casualties in War. The United Kingdom openly supports Ukraine. Delegation of the United States of America promotes peace among both nations.',
-    content: 'The committee Session 1 starts with Delegation of United Kingdom’s
-Speaker’s list followed by United States of America. United Kingdom openly supports
-Ukraine while addressing countless amounts of deaths which are estimated to be
-around 14,200–14,400 military and civilian deaths during the War in Donbas, and up to
-1,000,000 estimated casualties during the Russian invasion of Ukraine. Russia
-comments that Ukraine has also caused civilian casualties to the same extent as
-Russia. Ukraine comments that United Kingdom is right about Russia condemning the
-act. Point of Information raised was by Russia about them not condemning any act.
-Ukraine changing its words to Russia is causing the act. Delegate of United States
-of America states that they have provided $66.5 billion in military assistance since
-Russia launched its full-scale invasion of Ukraine on February 24, 2022, and
-approximately $69.2 billion in military assistance since Russia’s initial invasion of
-Ukraine in 2014. The United States of America has now used the emergency
-Presidential Drawdown Authority on 55 occasions since August 2021 to provide Ukraine
-military assistance totaling approximately $31.7 billion from DoD stockpiles.',
+    content: '"The committee Session 1 starts with Delegation of United Kingdom’s Speaker’s list followed by United States of America. United Kingdom openly supports Ukraine while addressing countless amounts of deaths 
+              which are estimated to be around 14200 – 14400 military and civilian deaths during the War in Donbas, and up to 1,000,000 estimated casualties during the Russian invasion of Ukraine. 
+              Russia comments that Ukraine has also caused civilian casualties to the same extent as Russia. Ukraine comments that United Kingdom is right about Russia condemning the act. Point of Information raised by Russia was about them not condemning any act.
+              Ukraine changing its words to Russia is causing the act. Delegate of United States of America states that they have provided $66.5 billion in military assistance since Russia launched its full-scale invasion of Ukraine on February 24, 2022, and
+              approximately $69.2 billion in military assistance since Russia’s initial invasion of Ukraine in 2014. The United States of America has now used the emergency
+              Presidential Drawdown Authority on 55 occasions since August 2021 to provide Ukraine military assistance totaling approximately $31.7 billion from DoD stockpiles."',
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['Russia-Ukraine Wars', 'UK', 'Ukraine', 'Russia', 'USA', 'Speakers list', 'Call For Peace'],
     status: 'published',
@@ -207,18 +182,10 @@ military assistance totaling approximately $31.7 billion from DoD stockpiles.',
     event: 'UNODA',
     date: '2025-04-12',
     author: 'Anay Kathuria',
-    summary: 'The United Kingdom views, having Nuclear Weapons as a responsibility
-and not a threat to the world. The United Kingdom believes that the
-world is at balance when only a few countries, including United
-Kingdom, have Nuclear Bombs.',
-    content: `The Delegate of United Kingdom said in United Nations Office for
-Disarmament Affairs(UNODA) that having a Nuclear Power is a
-responsibility and not a luxury. The United Kingdom believes that the
-entire world should dispose off of their Nuclear Weapons except for the
-five countries which were allowed by the Non-Proliferation Treaty. The
-United Kingdom supports the Disarmament Motion but also believes
-that it should have Nuclear Weapons in its possession as a
-“responsibility”`,
+    summary: 'The United Kingdom views having Nuclear Weapons as a responsibility and not a threat to the world. The United Kingdom believes that the world is at balance when only a few countries, including United Kingdom have Nuclear Bombs.',
+    content: `The Delegate of United Kingdom said in United Nations Office for Disarmament Affairs(UNODA) that having a Nuclear Power is a
+responsibility and not a luxury. The United Kingdom believes that the entire world should dispose off of their Nuclear Weapons except for the five countries which were allowed by the Non-Proliferation Treaty. The
+United Kingdom supports the Disarmament Motion but also believes that it should have Nuclear Weapons in its possession as a “responsibility”`,
     imageUrl: ARTICLE_IMAGES.assemblyVote,
     tags: ['PIMUN', 'PIMUN 2025', 'UNODA', 'Debate', 'Global Goals', 'UK','Weapons Disarmament','Weapons'],
     status: 'published',
